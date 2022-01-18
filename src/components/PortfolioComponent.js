@@ -3,8 +3,10 @@ import { Card, CardBody, CardImg, CardTitle, Breadcrumb, BreadcrumbItem} from 'r
 import { Link } from 'react-router-dom';
 import { FadeTransform } from 'react-animation-components';
 import Header from './HeaderComponent';
+import { ALBUMS } from '../shared/albums';
 
-function RenderPortfolioItem({album}){
+function RenderPortfolioItem({album}, imagesrc){
+    
     return(
         <FadeTransform 
             in
@@ -27,7 +29,7 @@ function Portfolio(props){
     const portfolio = props.albums.map(album => {
         return( 
             <div key={album.id} className="portfolio-grid-item">
-                <RenderPortfolioItem album={album} />
+                <RenderPortfolioItem album={album} imagesrc={album.image}/>
             </div>
         );
     });

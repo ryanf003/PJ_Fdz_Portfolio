@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
 
+
 class MyCarousel extends Component {
     render() {
         return (
@@ -9,7 +10,7 @@ class MyCarousel extends Component {
                 <Carousel.Item>
                     <img
                     className=" w-100"
-                    src="/assets/img/events/events-1.jpg"
+                    src={require('../img/Events/events-1.jpg')}
                     alt="Fourth slide"
                     />
                     <Carousel.Caption>
@@ -19,7 +20,7 @@ class MyCarousel extends Component {
                 <Carousel.Item>
                     <img
                     className=" w-100"
-                    src='/assets/img/baby/baby-home.jpg'
+                    src={require('../img/Baby/baby-home.jpg')}
                     alt="First slide"
                     />
                     <Carousel.Caption>
@@ -29,7 +30,7 @@ class MyCarousel extends Component {
                 <Carousel.Item>
                     <img
                     className=" w-100"
-                    src='/assets/img/Family/family-home.jpg'
+                    src={require('../img/Family/family-home.jpg')}
                     alt="Second slide"
                     />
                     <Carousel.Caption>
@@ -39,7 +40,7 @@ class MyCarousel extends Component {
                 <Carousel.Item>
                     <img
                     className=" w-100"
-                    src="/assets/img/Maternity/maternity-home.jpg"
+                    src={require('../img/Maternity/maternity-home.jpg')}
                     alt="Third slide"
                     />
                     <Carousel.Caption>
@@ -49,7 +50,7 @@ class MyCarousel extends Component {
                 <Carousel.Item>
                     <img
                     className=" w-100"
-                    src="/assets/img/portraits/portraits-1.jpg"
+                    src={require('../img/Portraits/portraits-1.jpg')}
                     alt="Fifth slide"
                     />
                     <Carousel.Caption>
@@ -59,7 +60,7 @@ class MyCarousel extends Component {
                 <Carousel.Item>
                     <img
                     className=" w-100"
-                    src="/assets/img/travel/travel-1.jpg"
+                    src={require('../img/Travel/travel-1.jpg')}
                     alt="Sixth slide"
                     />
                     <Carousel.Caption>

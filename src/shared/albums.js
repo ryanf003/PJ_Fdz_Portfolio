@@ -2,7 +2,7 @@ export const ALBUMS = [
     {
         id: 0,
         name: 'Baby',
-        image: '/assets/img/baby/baby-home.jpg',
+        image: require('../img/Baby/baby-home.jpg'),
         count: 3,
         date: 'July 2018',
         featured: true,
@@ -10,7 +10,7 @@ export const ALBUMS = [
     {
         id: 1,
         name: 'Family',
-        image: '/assets/img/family/family-home.jpg',
+        image: require('../img/Family/family-home.jpg'),
         count: 3,
         date: 'February 2019',
         featured: false,
@@ -18,7 +18,7 @@ export const ALBUMS = [
     {
         id: 2,
         name: 'Maternity',
-        image: '/assets/img/maternity/maternity-home.jpg',
+        image: require('../img/Maternity/maternity-home.jpg'),
         count: 3,
         date: 'March 2021',
         featured: false,
@@ -26,7 +26,7 @@ export const ALBUMS = [
     {
         id: 3,
         name: 'Events',
-        image: '/assets/img/events/events-1.jpg',
+        image: require('../img/Events/events-1.jpg'),
         count: 3,
         date: 'July 2018',
         featured: true,
@@ -34,7 +34,7 @@ export const ALBUMS = [
     {
         id: 4,
         name: 'Portraits',
-        image: '/assets/img/portraits/portraits-1.jpg',
+        image: require('../img/Portraits/portraits-1.jpg'),
         count: 3,
         date: 'February 2019',
         featured: false,
@@ -42,7 +42,7 @@ export const ALBUMS = [
     {
         id: 5,
         name: 'Travel',
-        image: '/assets/img/travel/travel-1.jpg',
+        image: require('../img/Travel/travel-1.jpg'),
         count: 3,
         date: 'March 2021',
         featured: false,
