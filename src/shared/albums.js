@@ -1,0 +1,50 @@
+export const ALBUMS = [
+    {
+        id: 0,
+        name: 'Baby',
+        image: '/assets/img/baby/baby-home.jpg',
+        count: 3,
+        date: 'July 2018',
+        featured: true,
+    },
+    {
+        id: 1,
+        name: 'Family',
+        image: '/assets/img/family/family-home.jpg',
+        count: 3,
+        date: 'February 2019',
+        featured: false,
+    },
+    {
+        id: 2,
+        name: 'Maternity',
+        image: '/assets/img/maternity/maternity-home.jpg',
+        count: 3,
+        date: 'March 2021',
+        featured: false,
+    },
+    {
+        id: 3,
+        name: 'Events',
+        image: '/assets/img/events/events-1.jpg',
+        count: 3,
+        date: 'July 2018',
+        featured: true,
+    },
+    {
+        id: 4,
+        name: 'Portraits',
+        image: '/assets/img/portraits/portraits-1.jpg',
+        count: 3,
+        date: 'February 2019',
+        featured: false,
+    },
+    {
+        id: 5,
+        name: 'Travel',
+        image: '/assets/img/travel/travel-1.jpg',
+        count: 3,
+        date: 'March 2021',
+        featured: false,
+    }
+];
